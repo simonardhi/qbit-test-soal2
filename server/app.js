@@ -18,12 +18,13 @@ var soal2 =  {
             if(charIndex === -1){
                 result += value[i];
             }else{
-                if(value[charIndex] > value[charIndex+1]) {
+                if(result[charIndex] > result[charIndex+1]) {
                     var charResultIndex = result.indexOf(value[i]);
                     result = soal2.charRemove(result, charResultIndex);
                     result += value[i];
                 }
             }
+            console.log(result);
         }
         return result;
     }
