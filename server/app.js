@@ -24,7 +24,6 @@ var soal2 =  {
                     result += value[i];
                 }
             }
-            console.log(result);
         }
         return result;
     }
